@@ -1,0 +1,2 @@
+mode,capacity,n_messages,n_views_each,view_success,view_total,view_p,worst_success,worst_p,reasons,seed
+base138,138,120,8,812,960,0.8458333333333333,43,0.35833333333333334,"{""parity_failure"": 116, ""crc_failure"": 28, ""detect_failure:singular color calibration"": 4}",371100001

@@ -1,0 +1,10 @@
+{
+  "tag": "d6_s7",
+  "multiplier": 11,
+  "offsets": "[463, 466, 582, 539, 252, 1098]",
+  "hard_ok": 43,
+  "medium_ok": 10,
+  "adv_ok": 29,
+  "score": 63.4,
+  "reasons": "{\"ok\": 53, \"aux_crc\": 5, \"core_parity\": 4, \"core_crc\": 2, \"detection:singular color calibration\": 1}"
+}

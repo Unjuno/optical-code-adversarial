@@ -1,0 +1,2 @@
+mode,capacity,n_messages,n_views_each,view_success,view_total,view_p,worst_success,worst_p,reasons,seed
+advgraph140,140,120,8,939,960,0.978125,102,0.85,"{""core_parity"": 15, ""aux_crc"": 2, ""detection:singular color calibration"": 2, ""core_crc"": 2}",371100001

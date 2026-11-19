@@ -1,0 +1,2 @@
+condition,mode,capacity_bytes,n,success,p_success,expected_verified_bytes,median_ms,p95_ms,core_iterations_mean,extra_iterations_mean,fail_reasons,seed_payload,seed_channel,torch,backend
+medium,combined142,142,1000,1000,1.0,142.0,4.3396385000278315,4.847937449915207,1.002,1.0,"{""ok"": 1000}",121100000,221100000,none,OpenCV/NumPy CPU
