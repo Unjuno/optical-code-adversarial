@@ -1,0 +1,743 @@
+{
+  "baseline": {
+    "ok": 375,
+    "aux_crc": 5,
+    "core_crc": 5,
+    "core_parity": 13,
+    "detection:singular color calibration": 2
+  },
+  "candidates": [
+    {
+      "name": "affine_ridge1_covidentity_beta0.5",
+      "rescued": 10,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge1_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 1.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge4_covidentity_beta0.5",
+      "rescued": 10,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge4_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge12_covidentity_beta0.5",
+      "rescued": 10,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge12_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 12.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge12_covidentity_beta1.0",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        67,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge12_covidentity_beta1.0",
+        "method": "affine",
+        "ridge": 12.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge30_covidentity_beta0.5",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge30_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 30.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge30_covidentity_beta1.0",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        67,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge30_covidentity_beta1.0",
+        "method": "affine",
+        "ridge": 30.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge30_covdiag_beta0.5",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge30_covdiag_beta0.5",
+        "method": "affine",
+        "ridge": 30.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge30_covdiag_beta1.0",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge30_covdiag_beta1.0",
+        "method": "affine",
+        "ridge": 30.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge4_covdiag_beta0.5",
+      "rescued": 9,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge4_covdiag_beta0.5",
+        "method": "mean",
+        "ridge": 4.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge4_covdiag_beta0.5",
+      "rescued": 8,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge4_covdiag_beta0.5",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge12_covdiag_beta0.5",
+      "rescued": 8,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        229,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge12_covdiag_beta0.5",
+        "method": "affine",
+        "ridge": 12.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge1_covidentity_beta0.5",
+      "rescued": 8,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge1_covidentity_beta0.5",
+        "method": "mean",
+        "ridge": 1.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge4_covidentity_beta0.5",
+      "rescued": 8,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge4_covidentity_beta0.5",
+        "method": "mean",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge1_covdiag_beta0.5",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge1_covdiag_beta0.5",
+        "method": "affine",
+        "ridge": 1.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge12_covdiag_beta1.0",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        49,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge12_covdiag_beta1.0",
+        "method": "affine",
+        "ridge": 12.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge1_covdiag_beta0.5",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge1_covdiag_beta0.5",
+        "method": "mean",
+        "ridge": 1.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge4_covdiag_beta1.0",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        115,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge4_covdiag_beta1.0",
+        "method": "mean",
+        "ridge": 4.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge12_covidentity_beta0.5",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        229,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge12_covidentity_beta0.5",
+        "method": "mean",
+        "ridge": 12.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge12_covdiag_beta0.5",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        67,
+        229,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge12_covdiag_beta0.5",
+        "method": "mean",
+        "ridge": 12.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge12_covdiag_beta1.0",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        291,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge12_covdiag_beta1.0",
+        "method": "mean",
+        "ridge": 12.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge30_covdiag_beta1.0",
+      "rescued": 7,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        49,
+        115,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge30_covdiag_beta1.0",
+        "method": "mean",
+        "ridge": 30.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge4_covidentity_beta1.0",
+      "rescued": 6,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge4_covidentity_beta1.0",
+        "method": "mean",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge12_covidentity_beta1.0",
+      "rescued": 6,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        47,
+        115,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge12_covidentity_beta1.0",
+        "method": "mean",
+        "ridge": 12.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge4_covidentity_beta1.0",
+      "rescued": 5,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        49,
+        115,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge4_covidentity_beta1.0",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge4_covdiag_beta1.0",
+      "rescued": 5,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        49,
+        115,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge4_covdiag_beta1.0",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge30_covdiag_beta0.5",
+      "rescued": 5,
+      "wrong_decoded": 0,
+      "indices": [
+        40,
+        44,
+        67,
+        229,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge30_covdiag_beta0.5",
+        "method": "mean",
+        "ridge": 30.0,
+        "cov": "diag",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge1_covidentity_beta1.0",
+      "rescued": 4,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        115,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge1_covidentity_beta1.0",
+        "method": "mean",
+        "ridge": 1.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge1_covdiag_beta1.0",
+      "rescued": 4,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        115,
+        378
+      ],
+      "config": {
+        "name": "mean_ridge1_covdiag_beta1.0",
+        "method": "mean",
+        "ridge": 1.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge30_covidentity_beta1.0",
+      "rescued": 4,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        40,
+        44,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge30_covidentity_beta1.0",
+        "method": "mean",
+        "ridge": 30.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge1_covidentity_beta1.0",
+      "rescued": 3,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge1_covidentity_beta1.0",
+        "method": "affine",
+        "ridge": 1.0,
+        "cov": "identity",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "affine_ridge1_covdiag_beta1.0",
+      "rescued": 3,
+      "wrong_decoded": 0,
+      "indices": [
+        7,
+        44,
+        378
+      ],
+      "config": {
+        "name": "affine_ridge1_covdiag_beta1.0",
+        "method": "affine",
+        "ridge": 1.0,
+        "cov": "diag",
+        "prior_strength": 1.0,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    },
+    {
+      "name": "mean_ridge30_covidentity_beta0.5",
+      "rescued": 3,
+      "wrong_decoded": 0,
+      "indices": [
+        44,
+        47,
+        291
+      ],
+      "config": {
+        "name": "mean_ridge30_covidentity_beta0.5",
+        "method": "mean",
+        "ridge": 30.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    }
+  ]
+}

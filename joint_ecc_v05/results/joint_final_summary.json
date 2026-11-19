@@ -1,0 +1,90 @@
+{
+  "complete": true,
+  "n": 1000,
+  "payload_bytes": 140,
+  "channel": "hard",
+  "payload_seed_expression": "331100000+i",
+  "camera_seed_expression": "442100000+i",
+  "index_range": [
+    0,
+    999
+  ],
+  "matrix_name": "d5_a2_s21",
+  "matrix_sha256": "4d3f700cda39b60b4e1d2aee775f78ddd842a88a33718b98d55c7e5370a5e9bd",
+  "selected_config": {
+    "calibrations": [
+      {
+        "name": "affine_ridge4_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    ]
+  },
+  "success": 974,
+  "success_rate": 0.974,
+  "success_wilson95": [
+    0.9621761711573101,
+    0.9821960617983837
+  ],
+  "aux_crc_failure": 4,
+  "aux_crc_failure_wilson95": [
+    0.0015565881404084308,
+    0.010239556277262253
+  ],
+  "failure_reasons": {
+    "core_parity": 15,
+    "core_crc": 2,
+    "aux_crc": 4,
+    "detection": 5,
+    "other": 0
+  },
+  "raw_reasons": {
+    "ok": 974,
+    "core_crc": 2,
+    "core_parity": 15,
+    "detection:singular color calibration": 5,
+    "aux_crc": 4
+  },
+  "previous_success": 944,
+  "delta_success": 30,
+  "delta_rate_pp": 3.0,
+  "paired_table": {
+    "both_success": 944,
+    "old_only": 0,
+    "new_only": 30,
+    "both_fail": 26
+  },
+  "paired_mcnemar_one_sided_exact_p": 9.313225746154785e-10,
+  "criteria": {
+    "improvement": "new success > 944 and exact paired one-sided p<0.05",
+    "99pct_point": "new success >= 990",
+    "99pct_statistical": "Wilson95 lower bound >=0.99"
+  },
+  "judgment": {
+    "improvement": "PASS",
+    "99pct_point": "FAIL",
+    "99pct_statistical": "FAIL"
+  },
+  "rescue_count": 30,
+  "retry_count": 44,
+  "median_decode_ms": 5.2461305,
+  "p95_decode_ms": 9.250386899999993,
+  "sample_records_sha256": {
+    "joint_final_0000_0499.csv": "cb28e967cbfe73761af57e9c2459e200b155e62d195352b663694c5c3b99e564",
+    "joint_final_0500_0999.csv": "85e5f21c884917e0d283d00c1804173ff63d35291124c0485758ed4c0cac684a"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "cpu": "",
+    "threads": "1",
+    "batch": 1,
+    "cpu_clock": "not pinned"
+  },
+  "no_original_regression": true,
+  "base_replay_1000_agrees": true
+}

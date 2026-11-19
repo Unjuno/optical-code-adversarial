@@ -1,0 +1,4 @@
+confirm 100 / 300 elapsed 1.3
+confirm 200 / 300 elapsed 2.7
+confirm 300 / 300 elapsed 3.9
+cache confirm reason_count {'ok': 285, 'core_parity': 10, 'detection:singular color calibration': 2, 'aux_crc': 2, 'core_crc': 1} path /mnt/data/joint_ecc_v05/results/development_confirm_contexts.pkl

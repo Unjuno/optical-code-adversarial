@@ -1,0 +1,1 @@
+{"chunk": [0, 500], "events": 500, "counts": {"ok": 486, "core_crc": 2, "core_parity": 8, "detection:singular color calibration": 2, "aux_crc": 2}, "elapsed_s": 7.263, "file": "/mnt/data/joint_ecc_v05/results/joint_final_0000_0499.csv", "sha256": "cb28e967cbfe73761af57e9c2459e200b155e62d195352b663694c5c3b99e564"}

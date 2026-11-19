@@ -1,0 +1,5 @@
+screen 100 / 400 elapsed 1.3
+screen 200 / 400 elapsed 2.5
+screen 300 / 400 elapsed 3.8
+screen 400 / 400 elapsed 5.0
+cache screen reason_count {'ok': 375, 'aux_crc': 5, 'core_crc': 5, 'core_parity': 13, 'detection:singular color calibration': 2} path /mnt/data/joint_ecc_v05/results/development_screen_contexts.pkl

@@ -1,0 +1,22 @@
+{
+  "audit": "PASS",
+  "n": 1000,
+  "success": 974,
+  "failed": 26,
+  "reasons": {
+    "ok": 974,
+    "core_crc": 2,
+    "core_parity": 15,
+    "detection:singular color calibration": 5,
+    "aux_crc": 4
+  },
+  "paired_wins": 30,
+  "paired_losses": 0,
+  "sha256_chunks": {
+    "joint_final_0000_0499.csv": "cb28e967cbfe73761af57e9c2459e200b155e62d195352b663694c5c3b99e564",
+    "joint_final_0500_0999.csv": "85e5f21c884917e0d283d00c1804173ff63d35291124c0485758ed4c0cac684a"
+  },
+  "all_seed_hashes_confirmed": true,
+  "all_baseline_reasons_match": true,
+  "all_original_successes_kept": true
+}

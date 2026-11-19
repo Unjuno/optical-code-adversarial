@@ -1,0 +1,5 @@
+screened 8 / 32 best 10
+screened 16 / 32 best 10
+screened 24 / 32 best 10
+screened 32 / 32 best 10
+screen baseline {'ok': 375, 'aux_crc': 5, 'core_crc': 5, 'core_parity': 13, 'detection:singular color calibration': 2} TOP [('affine_ridge1_covidentity_beta0.5', 10, 0), ('affine_ridge4_covidentity_beta0.5', 10, 0), ('affine_ridge12_covidentity_beta0.5', 10, 0), ('affine_ridge12_covidentity_beta1.0', 9, 0), ('affine_ridge30_covidentity_beta0.5', 9, 0), ('affine_ridge30_covidentity_beta1.0', 9, 0), ('affine_ridge30_covdiag_beta0.5', 9, 0), ('affine_ridge30_covdiag_beta1.0', 9, 0), ('mean_ridge4_covdiag_beta0.5', 9, 0), ('affine_ridge4_covdiag_beta0.5', 8, 0), ('affine_ridge12_covdiag_beta0.5', 8, 0), ('mean_ridge1_covidentity_beta0.5', 8, 0)]

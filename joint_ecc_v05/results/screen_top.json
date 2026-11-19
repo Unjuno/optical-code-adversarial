@@ -1,0 +1,58 @@
+{
+  "selected_candidates": [
+    {
+      "name": "affine_ridge1_covidentity_beta0.5",
+      "method": "affine",
+      "ridge": 1.0,
+      "cov": "identity",
+      "prior_strength": 0.5,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    },
+    {
+      "name": "affine_ridge4_covidentity_beta0.5",
+      "method": "affine",
+      "ridge": 4.0,
+      "cov": "identity",
+      "prior_strength": 0.5,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    },
+    {
+      "name": "affine_ridge12_covidentity_beta0.5",
+      "method": "affine",
+      "ridge": 12.0,
+      "cov": "identity",
+      "prior_strength": 0.5,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    },
+    {
+      "name": "affine_ridge12_covidentity_beta1.0",
+      "method": "affine",
+      "ridge": 12.0,
+      "cov": "identity",
+      "prior_strength": 1.0,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    },
+    {
+      "name": "affine_ridge30_covidentity_beta0.5",
+      "method": "affine",
+      "ridge": 30.0,
+      "cov": "identity",
+      "prior_strength": 0.5,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    },
+    {
+      "name": "affine_ridge30_covidentity_beta1.0",
+      "method": "affine",
+      "ridge": 30.0,
+      "cov": "identity",
+      "prior_strength": 1.0,
+      "sigma": 0.19,
+      "variance_shrink": 0.65
+    }
+  ]
+}

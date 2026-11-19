@@ -1,0 +1,49 @@
+{
+  "name": "aux_to_main_affine_ridge4_beta0.5",
+  "matrix_name": "d5_a2_s21",
+  "matrix_sha256": "4d3f700cda39b60b4e1d2aee775f78ddd842a88a33718b98d55c7e5370a5e9bd",
+  "config": {
+    "calibrations": [
+      {
+        "name": "affine_ridge4_covidentity_beta0.5",
+        "method": "affine",
+        "ridge": 4.0,
+        "cov": "identity",
+        "prior_strength": 0.5,
+        "sigma": 0.19,
+        "variance_shrink": 0.65
+      }
+    ]
+  },
+  "selection_method": "development screen 400 and disjoint confirm 300 only; no new final data evaluated at time of freeze",
+  "development_screen": {
+    "payload": "551100000+i",
+    "camera": "662100000+i",
+    "n": 400,
+    "baseline_success": 375,
+    "rescued": 10,
+    "total_success": 385
+  },
+  "development_confirm": {
+    "payload": "771100000+i",
+    "camera": "882100000+i",
+    "n": 300,
+    "baseline_success": 285,
+    "rescued": 9,
+    "total_success": 294
+  },
+  "final_reserved": {
+    "payload": "331100000+i",
+    "camera": "442100000+i",
+    "n": 1000
+  },
+  "sha256_source": {
+    "source/optical_code_adversarial_v02/robust_code.py": "8349b778d1a7254dfa50e7aa149f07bb572cb87dd714c5eff092cdd7dcbe5019",
+    "source/optical_code_adversarial_v02/lab_v01.py": "df5163adc8412e3fc859ebd752f8598d7338fd9b169a1ba89c4f221666a10c85",
+    "source/aux42_lib.py": "b1ab8e289ceb4e9e28926a63d761955f2ade80d4e717cb831f52b8cfcdf5694c",
+    "source/selected_aux42_rows.npy": "4d3f700cda39b60b4e1d2aee775f78ddd842a88a33718b98d55c7e5370a5e9bd",
+    "joint_receiver.py": "fda0c565322682d6a7e099afa1b1ba72a7e9c6db7556f75c83d42f941d0c1781",
+    "run_final.py": "4eb7387e0885124e6bb2a0cec5ebff8a84600e1db2fd8bc93f6d357f58e73b59",
+    "PROTOCOL_PRE_REGISTERED.md": "cdb896d44299eea5af4ffeda3368e16f39e9ad1e5f3c4d8e0e560de88e99af9e"
+  }
+}
