@@ -1,0 +1,2 @@
+AUDIT PASS: 1000 unique consecutive cases, required seeds, payload hashes, success flags and counts
+{"ok": 944, "core_crc": 8, "core_parity": 39, "detection:singular color calibration": 5, "aux_crc": 4}

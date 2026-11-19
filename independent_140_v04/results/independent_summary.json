@@ -1,0 +1,62 @@
+{
+  "finished": true,
+  "n": 1000,
+  "scheme": "d5_a2_s21",
+  "condition": "hard",
+  "payload_bytes": 140,
+  "payload_seed_expression": "331100000+i",
+  "camera_seed_expression": "442100000+i",
+  "i_range": [
+    0,
+    999
+  ],
+  "success": 944,
+  "success_rate": 0.944,
+  "success_wilson95": [
+    0.927976651850269,
+    0.9566251866145581
+  ],
+  "aux_crc_failure": 4,
+  "aux_crc_failure_wilson95": [
+    0.0015565881404084308,
+    0.010239556277262253
+  ],
+  "failure_reasons": {
+    "core_parity": 39,
+    "core_crc": 8,
+    "aux_crc": 4,
+    "detection": 5
+  },
+  "reason_detail": {
+    "ok": 944,
+    "core_crc": 8,
+    "core_parity": 39,
+    "detection:singular color calibration": 5,
+    "aux_crc": 4
+  },
+  "old_reference_succ": 939,
+  "old_reference_n": 1000,
+  "rate_difference_pp": 0.5,
+  "rate_difference_newcombe95_pp": [
+    -1.577310837707543,
+    2.58397619295371
+  ],
+  "rate_difference_one_sided95_lower_pp": -1.2379412675901882,
+  "classification": "再現",
+  "classification_rule": "drop if two-sided 95% difference upper<0; else reproduce if one-sided95 lower>-3 pp; else insufficient evidence",
+  "median_latency_ms": 5.0523275000000005,
+  "p95_latency_ms": 8.0667787,
+  "matrix_sha256": "4d3f700cda39b60b4e1d2aee775f78ddd842a88a33718b98d55c7e5370a5e9bd",
+  "code_source_sha256": {
+    "aux42_lib.py": "b1ab8e289ceb4e9e28926a63d761955f2ade80d4e717cb831f52b8cfcdf5694c",
+    "optical_code_adversarial_v02/robust_code.py": "8349b778d1a7254dfa50e7aa149f07bb572cb87dd714c5eff092cdd7dcbe5019",
+    "optical_code_adversarial_v02/lab_v01.py": "df5163adc8412e3fc859ebd752f8598d7338fd9b169a1ba89c4f221666a10c85"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "cpu": "",
+    "threads": "1",
+    "batch": 1
+  }
+}
