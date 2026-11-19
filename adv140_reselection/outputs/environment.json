@@ -1,0 +1,33 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "AMD EPYC 9V74 80-Core Processor",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "opencv": "4.13.0",
+  "cv_threads": 1,
+  "visible_cpus": 5,
+  "batch_size": 1,
+  "core_iter": 18,
+  "aux_iter": 24,
+  "alpha": 0.8,
+  "detector_threshold": 140,
+  "camera_condition": {
+    "name": "hard",
+    "blur": 2.4,
+    "pixel_noise": 0.085,
+    "cell_noise": 0.07,
+    "jitter": 3.0,
+    "rotation": 12.0,
+    "mix": 0.055,
+    "wb": 0.13
+  },
+  "training_payload_seed_start": 341000000,
+  "training_camera_hard_seed_start": 441000000,
+  "training_camera_challenge_seed_start": 541000000,
+  "holdout_payload_seed_start": 121100000,
+  "holdout_camera_hard_seed_start": 222100000,
+  "multithreading": "OPENBLAS_NUM_THREADS=1; OMP_NUM_THREADS=1; cv2.setNumThreads(1)",
+  "cpu_clock": "not fixed/recorded",
+  "hardware_timing_claim": "not portable across HW or clock"
+}

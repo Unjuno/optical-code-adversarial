@@ -1,0 +1,8 @@
+SCREEN 8 16 d5_a0_s49 hard 193 /200 challenge 83 /90 score 1.333889 time 3.4
+SCREEN 9 16 d5_a1_s47 hard 194 /200 challenge 84 /90 score 1.343333 time 6.9
+SCREEN 10 16 d5_a2_s21 hard 196 /200 challenge 84 /90 score 1.353333 time 10.3
+SCREEN 11 16 d6_a0_s23 hard 194 /200 challenge 83 /90 score 1.338889 time 13.9
+SCREEN 12 16 d6_a1_s25 hard 194 /200 challenge 84 /90 score 1.343333 time 17.3
+SCREEN 13 16 d6_a2_s53 hard 193 /200 challenge 83 /90 score 1.333889 time 20.7
+SCREEN 14 16 d7_a0_s19 hard 192 /200 challenge 81 /90 score 1.32 time 24.1
+SCREEN CHUNK DONE 7 14

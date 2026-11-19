@@ -1,0 +1,2 @@
+condition,mode,capacity_bytes,n,success,p_success,expected_verified_bytes,median_ms,p95_ms,core_iterations_mean,extra_iterations_mean,fail_reasons,seed_payload,seed_channel,torch,backend
+hard,combined142,142,1000,846,0.846,120.13199999999999,5.0145264999628125,8.165587550047348,4.122,3.248,"{""ok"": 846, ""aux_crc"": 100, ""core_parity"": 35, ""core_crc"": 13, ""detection:singular color calibration"": 6}",121100000,222100000,none,OpenCV/NumPy CPU

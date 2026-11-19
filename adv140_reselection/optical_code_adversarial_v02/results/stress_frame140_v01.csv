@@ -1,0 +1,2 @@
+mode,capacity,n_messages,n_views_each,view_success,view_total,view_p,worst_success,worst_p,reasons,seed
+frame140_v01,140,120,8,247,960,0.25729166666666664,0,0.0,"{""core_failure"": 76, ""border_crc_failure"": 316, ""detect_failure:frame contour not found"": 305, ""detect_failure:singular color calibration"": 16}",371100001

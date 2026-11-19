@@ -1,0 +1,2 @@
+mode,capacity,n_messages,n_views_each,view_success,view_total,view_p,worst_success,worst_p,reasons,seed
+combined142,142,120,8,902,960,0.9395833333333333,82,0.6833333333333333,"{""aux_crc"": 40, ""core_parity"": 13, ""core_crc"": 4, ""detection:singular color calibration"": 1}",371100001

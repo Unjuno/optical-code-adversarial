@@ -1,0 +1,28 @@
+# Actual shell commands and important execution order (2026-11-20 JST; excerpts)
+mkdir -p /mnt/data/adv140_reselection
+cd /mnt/data/adv140_reselection
+git clone https://github.com/Unjuno/optical-code-adversarial.git repo
+# EXIT 128: Could not resolve host github.com
+unzip -q /mnt/data/optical_code_adversarial_v02.zip
+cd /mnt/data/adv140_reselection/optical_code_adversarial_v02
+cp results/holdout_final_hard_advgraph140.csv /mnt/data/adv140_reselection/archive_baseline_hard_advgraph140.csv
+cp results/outcomes_hard_advgraph140.npy /mnt/data/adv140_reselection/archive_outcomes_hard_advgraph140.npy
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python final_validation.py --condition hard --name advgraph140 --n 1000
+cd /mnt/data/adv140_reselection
+# pre-registration protocol written BEFORE selection final holdout
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_lib.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage analytic | tee outputs/analytic_console.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage screen | tee outputs/screen_console.log
+# previous one-shot screen timed out, partial outputs NOT used
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage screen --start 0 --stop 7 | tee outputs/screen_chunk_0_7.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage screen --start 7 --stop 14 | tee outputs/screen_chunk_7_14.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage screen --start 14 --stop 16 | tee outputs/screen_chunk_14_16.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage select --start 0 --stop 2 | tee outputs/select_chunk_0_2.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage select --start 2 --stop 4 | tee outputs/select_chunk_2_4.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage select --start 4 --stop 6 | tee outputs/select_chunk_4_6.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_search.py --stage freeze | tee outputs/freeze_console.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_holdout.py --stage chunk --start 0 --stop 500 | tee outputs/holdout_chunk_0_500.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_holdout.py --stage chunk --start 500 --stop 1000 | tee outputs/holdout_chunk_500_1000.log
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python aux42_holdout.py --stage finish > outputs/holdout_final_console.log
+# Follow-up independent internal integrity test: 300 algebraic/clean; 20 symbol-isolation; 200 distance checks
+# All pass. An additional paired bootstrap used 10,000 paired resamples.

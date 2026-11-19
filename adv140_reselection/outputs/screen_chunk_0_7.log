@@ -1,0 +1,8 @@
+SCREEN 1 16 old hard 194 /200 challenge 83 /90 score 1.338889 time 3.2
+SCREEN 2 16 d3_a0_s29 hard 196 /200 challenge 83 /90 score 1.348889 time 6.5
+SCREEN 3 16 d3_a1_s5 hard 195 /200 challenge 81 /90 score 1.335 time 10.0
+SCREEN 4 16 d3_a2_s18 hard 193 /200 challenge 84 /90 score 1.338333 time 13.2
+SCREEN 5 16 d4_a0_s62 hard 193 /200 challenge 84 /90 score 1.338333 time 16.4
+SCREEN 6 16 d4_a1_s25 hard 193 /200 challenge 84 /90 score 1.338333 time 19.8
+SCREEN 7 16 d4_a2_s52 hard 194 /200 challenge 83 /90 score 1.338889 time 23.0
+SCREEN CHUNK DONE 0 7

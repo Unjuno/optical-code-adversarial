@@ -1,0 +1,13 @@
+old_reason,new_reason,n
+aux_crc,aux_crc,4
+aux_crc,ok,9
+core_crc,core_crc,10
+core_crc,ok,3
+core_parity,core_crc,1
+core_parity,core_parity,36
+core_parity,ok,3
+detection:singular color calibration,detection:singular color calibration,6
+ok,aux_crc,2
+ok,core_crc,1
+ok,core_parity,1
+ok,ok,924

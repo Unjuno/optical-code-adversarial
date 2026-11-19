@@ -1,0 +1,16 @@
+ANALYTIC d3_a0_s29 {'min_distance': 16, 'weight_at_min': 5, 'weight_le_16': 5, 'weight_le_20': 25, 'weight_le_24': 176, 'four_cycles': 0, 'column_degree_min': 3, 'column_degree_max': 4, 'column_degree_std': 0.2421}
+ANALYTIC d3_a1_s5 {'min_distance': 15, 'weight_at_min': 2, 'weight_le_16': 7, 'weight_le_20': 25, 'weight_le_24': 193, 'four_cycles': 0, 'column_degree_min': 3, 'column_degree_max': 5, 'column_degree_std': 0.348}
+ANALYTIC d3_a2_s18 {'min_distance': 15, 'weight_at_min': 2, 'weight_le_16': 6, 'weight_le_20': 26, 'weight_le_24': 170, 'four_cycles': 0, 'column_degree_min': 3, 'column_degree_max': 4, 'column_degree_std': 0.2421}
+ANALYTIC d4_a0_s62 {'min_distance': 18, 'weight_at_min': 6, 'weight_le_16': 0, 'weight_le_20': 15, 'weight_le_24': 117, 'four_cycles': 0, 'column_degree_min': 5, 'column_degree_max': 6, 'column_degree_std': 0.433}
+ANALYTIC d4_a1_s25 {'min_distance': 18, 'weight_at_min': 2, 'weight_le_16': 0, 'weight_le_20': 15, 'weight_le_24': 123, 'four_cycles': 0, 'column_degree_min': 5, 'column_degree_max': 6, 'column_degree_std': 0.433}
+ANALYTIC d4_a2_s52 {'min_distance': 18, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 16, 'weight_le_24': 142, 'four_cycles': 0, 'column_degree_min': 5, 'column_degree_max': 6, 'column_degree_std': 0.433}
+ANALYTIC d5_a0_s49 {'min_distance': 20, 'weight_at_min': 5, 'weight_le_16': 0, 'weight_le_20': 5, 'weight_le_24': 120, 'four_cycles': 25, 'column_degree_min': 6, 'column_degree_max': 7, 'column_degree_std': 0.4961}
+ANALYTIC d5_a1_s47 {'min_distance': 19, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 3, 'weight_le_24': 138, 'four_cycles': 21, 'column_degree_min': 6, 'column_degree_max': 7, 'column_degree_std': 0.4961}
+ANALYTIC d5_a2_s21 {'min_distance': 19, 'weight_at_min': 3, 'weight_le_16': 0, 'weight_le_20': 5, 'weight_le_24': 112, 'four_cycles': 24, 'column_degree_min': 6, 'column_degree_max': 7, 'column_degree_std': 0.4961}
+ANALYTIC d6_a0_s23 {'min_distance': 20, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 1, 'weight_le_24': 110, 'four_cycles': 147, 'column_degree_min': 7, 'column_degree_max': 9, 'column_degree_std': 0.5995}
+ANALYTIC d6_a1_s25 {'min_distance': 20, 'weight_at_min': 3, 'weight_le_16': 0, 'weight_le_20': 3, 'weight_le_24': 111, 'four_cycles': 150, 'column_degree_min': 7, 'column_degree_max': 9, 'column_degree_std': 0.4146}
+ANALYTIC d6_a2_s53 {'min_distance': 19, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 1, 'weight_le_24': 103, 'four_cycles': 152, 'column_degree_min': 7, 'column_degree_max': 9, 'column_degree_std': 0.5449}
+ANALYTIC d7_a0_s19 {'min_distance': 20, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 1, 'weight_le_24': 109, 'four_cycles': 427, 'column_degree_min': 8, 'column_degree_max': 10, 'column_degree_std': 0.4635}
+ANALYTIC d7_a1_s11 {'min_distance': 20, 'weight_at_min': 1, 'weight_le_16': 0, 'weight_le_20': 1, 'weight_le_24': 114, 'four_cycles': 432, 'column_degree_min': 8, 'column_degree_max': 10, 'column_degree_std': 0.4635}
+ANALYTIC d7_a2_s42 {'min_distance': 20, 'weight_at_min': 2, 'weight_le_16': 0, 'weight_le_20': 2, 'weight_le_24': 108, 'four_cycles': 431, 'column_degree_min': 8, 'column_degree_max': 10, 'column_degree_std': 0.4635}
+ANALYTIC candidates= 16 old_spectrum {'min_distance': 14, 'weight_at_min': 1, 'weight_le_16': 3, 'weight_le_20': 11, 'weight_le_24': 126}
